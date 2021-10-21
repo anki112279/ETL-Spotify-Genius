@@ -11,7 +11,6 @@ import re
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 final_data_dictionary = { 'Id':[], 'Album Name' : [],'Date Released':[],'Artist': [], 'Total Tracks': [],
                         'Popularity':[], 'Song Name':[], 'Song Duration':[] }
-genius_key = 'b2q1rosqGNy-UI2Z6vyX8_qywpJHZUnM6pXN9NbTlybXEG4-MRBC4cImVo53OPDb'
 
 def get_playlist_songs(playlist_url):
     '''
